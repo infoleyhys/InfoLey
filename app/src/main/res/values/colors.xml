@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C1443B</color>
+    <color name="colorPrimaryDark">#C1443B</color>
+    <color name="colorAccent">#448AFF</color>
+    <color name="colorItemDescripcion">#e0e0e0</color>
+    <color name="colorItemIconCounter">#d3d3d3</color>
+    <color name="colorNavHeader">#252525</color>
+    <color name="searchBy">#ffffff</color>
+    <color name="colorItemTitle">#ffffff</color>
+    <color name="colorNavControl">#2d2d2f</color>
+    <color name="colorNavControlResults">#d3d3d3</color>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dim_nav_padding"
+    android:paddingTop="16dp"
+    android:paddingRight="@dimen/dim_nav_padding"
+    android:paddingBottom="16dp"
+    android:visibility="visible">
+
+    <Spinner
+        android:id="@+id/spinner_nav"
+
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:dropDownWidth="wrap_content"
+        android:minWidth="@dimen/dim_spinner_minWidth"
+        android:popupBackground="@color/colorNavControl"
+        android:spinnerMode="dropdown"
+        android:contentDescription="@string/lista_desplegable"/>
+
+    <TextView
+        android:id="@+id/lbl_nav_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="@string/lbl_searchtext"
+        android:textColor="@color/colorItemTitle" />
+
+    <SeekBar
+        android:id="@+id/seekBar_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/control_deslizante"/>
+</LinearLayout>
+

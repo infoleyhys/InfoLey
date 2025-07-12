@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="icon_width">32dp</dimen>
+    <dimen name="icon_height">32dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_height">180dp</dimen>
+
+    <dimen name="dim_btn_about">120dp</dimen>
+    <dimen name="dim_groupheader">56dp</dimen>
+    <dimen name="dim_item">72dp</dimen>
+    <dimen name="nav_control_max_width">400dp</dimen>
+    <dimen name="dim_nav_padding">32dp</dimen>
+    <dimen name="dim_minWidth_menu">280dp</dimen>
+    <dimen name="dim_spinner_minWidth">160dp</dimen>
+</resources>
